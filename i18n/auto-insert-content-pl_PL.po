@@ -1,0 +1,80 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Auto Insert Content\n"
+"POT-Creation-Date: 2018-06-09 23:56+0200\n"
+"PO-Revision-Date: 2018-06-10 00:08+0200\n"
+"Last-Translator: \n"
+"Language-Team: Maurycy Zarzycki Evidently Cube\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.8\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: index.php:104
+msgid "Position must be a number."
+msgstr "Pozycja musi być liczbą."
+
+#: index.php:107
+msgid "Position can't be less than zero."
+msgstr "Pozycja nie może być mniejsza niż zero."
+
+#: index.php:110
+msgid "Position can't be more than one hundred."
+msgstr "Pozycja nie może być większa niż sto."
+
+#: index.php:113
+msgid "Position must be an integer between 0 and 100."
+msgstr "Pozycja musi być liczbą naturalną między 0 a 100."
+
+#: templates/admin-view.php:4
+msgid "Auto insert content"
+msgstr "Automatyczny Dodawacz Treści"
+
+#: templates/admin-view.php:6
+msgid "plugin-description"
+msgstr ""
+"Przy pomocy tej wtyczki możesz automatycznie dodawać tekst do treści "
+"wszystkich wpisów na blogu. Najbardziej przydaje się to do takich rzeczy jak "
+"formularz rejestracyjny do newslettera."
+
+#: templates/admin-view.php:15
+msgid "contents"
+msgstr "Dodawana treść"
+
+#: templates/admin-view.php:26
+msgid "You can use shortcodes here."
+msgstr "Możesz używać shortcodes (specjalnych tagów w nawiasach kwadratowych)."
+
+#: templates/admin-view.php:32
+msgid "position"
+msgstr "Pozycja"
+
+#: templates/admin-view.php:42
+msgid "description"
+msgstr ""
+"To pole określa pozycję we wpisie gdzie dodany ma być tekst i przyjmuje "
+"wartość procentową. Dozwolone wartości są pomiędzy 0 (treść zostania dodana "
+"na samym początku) a 100 (treść zostanie dodana na samym końcu). W przypadku "
+"wartości pomiędzy tymi dwoma, algorytm spróbuje znaleźć miejsce pomiędzy "
+"dwoma blokami (akapit/lista/blok div) najbliższe wskazanemu."
+
+#: texts.php:13
+msgid "activation-notice"
+msgstr ""
+"Czy chcesz dokonać konfiguracji wtyczki Automatyczne Dodawanie Treści? <a "
+"href=\"%s\">Kliknij tutaj</a>."
+
+#: texts.php:24
+msgid "missing-wpautop-notice"
+msgstr ""
+"Wygląda na to, że masz wyłączone automatyczne generowanie akapitów (filtr "
+"wpautop). Może to być spowodowane używaną skórką lub inną wtyczką - "
+"Automatyczny Dodawacz Treści nie będzie działał poprawnie bez znaczników "
+"HTML w tekście. Mimo braku tej funkcjonalności możliwe jest, że inny wtyczka "
+"lub mechanizm lub ręczne wpisanie zapewnia istnienie znaczników HTML ale nie "
+"da się tego wykryć. Proszę zweryfikować poprawne działanie wtyczki."
